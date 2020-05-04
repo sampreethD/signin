@@ -13,7 +13,7 @@ passport.use(
         //options for strategy
         clientID: keys.clientID,
         clientSecret: keys.clientSecret,
-        callbackURL: `http://127.0.0.1:3000/auth/google/redirect`
+        callbackURL: `https://desolate-refuge-40734.herokuapp.com/auth/google/redirect`
     }, (accessToken, refreshToken, profile, cb) => {
         //callback from passport.
         console.log('user data can be found in profile', profile)
