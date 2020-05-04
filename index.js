@@ -10,7 +10,7 @@ app.use('/auth',auth_route)
 app.get('/', (req, res) => {
     console.log('req reached ');
 
-    res.render('home')
+    res.render('home') 
 })
 
 
