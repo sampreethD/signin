@@ -19,7 +19,7 @@
   "homepage": "https://github.com/sampreethD/signin#readme",
   "dependencies": {
     "ejs": "^3.1.2",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "index.js": "0.0.3",
     "passport": "^0.4.1",
     "passport-google-oauth20": "^2.0.0"
